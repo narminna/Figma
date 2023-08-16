@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+.first, .second{
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.left, .right{
+    display: flex;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.left{
+    padding-top: 28px;
+    padding-bottom: 45px;
+    width: 34;
+    height: 0px;
+    gap: 24px;
+}
+.left i {
+    font-size: 24px;
+}
+.center{
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+}
+.center svg path {
+    width: 146.062px;
+    height: 42.915px;
+    fill: #181A1D;
+}
+.right{
+    margin-right: 64px;
+    gap: 32px;
+}
+.right button, .button bag {
+    background-color: transparent;
+}
+button{
+    cursor: pointer;
+    position: relative;
+    border: none;
+}
+.notification {
+    position: absolute;
+    top: 9%;
+    right: 5%;
+    width: 13.9px;
+    height: 13.9px;
+    border-radius: 100%;
+    color: white;
+    background-color: red;
+    display: block;
+}
+.bag{
+    position: relative;
+}
+.second {
+    border-top: 1px solid #8A9CA7;
+    padding: 10px 0;
+}
+.home, .about, .services, .terms, .help{
+    color: var(--blue-gray-50, #6D8493);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+.second .left div{
+    margin-right: 40px;
+    display: inline-block;
+}

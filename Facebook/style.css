@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 64px;
+    border: none;
+    height: 56px;
+}
+
+.left, .center, .right {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 40px;
+    color: #1877F2;
+    cursor: pointer;
+}
+.search i, .add i, .comment i, .bell i, .down i{
+    width: 40px;
+    height: 40px;
+    background-color: #E2E6E9;
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search i {
+    color: #A7B5BE;
+    border-radius: 50%;
+    margin-left: 16px;
+    cursor: pointer;
+}
+button {
+    position: relative;
+    border: none;
+    background: none;
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+button i {
+    font-size: 20px;
+}
+.notification{
+    display: flex;
+    position: absolute;
+    top: 8.6px;
+    right: 1;
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    width: 34px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(50%, -50%);
+}
+.notifications{
+    position: absolute;
+    top: 8.18px;
+    right: -12px;
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    padding: 4px 8px;
+    width: 34px;
+    height: 24px;
+    line-height: 1;
+    text-align: center;
+}
